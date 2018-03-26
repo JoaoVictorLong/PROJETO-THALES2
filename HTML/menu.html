@@ -1,0 +1,33 @@
+<html>
+        <head>
+                <title>Menu</title>
+        </head>
+        <body>
+                <center>
+                        <h1>Menu</h1>
+        <br/>
+        <hr/>
+        <form action="menu.cgi" method="post">
+                FIREWALL: <br/><br/>
+                <input type="submit" value="INICIAR" name="firewall">
+                <input type="submit" value="PARAR" name="firewall">
+                <input type="submit" value="REINICIAR" name="firewall"><br/>
+                DNS: <br/><br/>
+                <input type="submit" value="INICIAR" name="dns">
+                <input type="submit" value="PARAR" name="dns">
+                <input type="submit" value="REINICIAR" name="dns"><br/>
+                NAGIOS3: <br/><br/>
+                <input type="submit" value="INICIAR" name="nagios3">
+                <input type="submit" value="PARAR" name="nagios3">
+                <input type="submit" value="REINICIAR" name="nagios3"><br/>
+        </form>
+        <form action="status.cgi" method="post">
+                status das aplicações:<br/>
+                <input type="submit" value="Firewall" name="firewall">
+                <input type="submit" value="DNS" name="dns">
+                <input type="submit" value="Nagios3" name="nagios3">
+                <input type="submit" value="Todos" name="todos">
+        </form>
+        </center>
+        </body>
+</html>
